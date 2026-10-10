@@ -5,11 +5,11 @@ export default function Counter (){
     return (
        <div>
       <h1>{count}</h1>
-
-      <button onClick={() => setCount(count + 1)}>
-     +
+ 
+      <button style={{border: '4px solid red '}} onClick={() => setCount(count + 1)}>
+       +
       </button>
-      <button onClick={()=> setCount(count -1)}>-</button>
+      <button style={{border: '4px solid red '}} onClick={()=> setCount(count -1)}>-</button>
     </div> 
-    )
-}
+      )
+    }

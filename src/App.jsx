@@ -19,12 +19,11 @@ function App() {
       
           <h1>Get started</h1>
 <Counter></Counter>
-
-          <div> 
+        <div> 
             <button onClick={handel}>Click Me</button>
            <button onClick={handelClick2}>Click Me 2</button>
            <button onClick={()=>{ alert('third click')}}>Third Button</button>
-          </div>
+        </div>
 
           
  </>
