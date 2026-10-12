@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import Counter from './Count'
 import Team from '../Team'
+import Users from '../Users'
 function App() {
   const [count, setCount] = useState(0)
   function handel (){
@@ -18,6 +19,7 @@ function App() {
     <>
       
           <h1>Get started</h1>
+          <Users></Users>
           <Team></Team>
      <Counter></Counter>
         <div> 
