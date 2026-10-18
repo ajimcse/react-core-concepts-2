@@ -7,6 +7,7 @@ import Counter from './Count'
 import Team from '../Team'
 import Users from '../Users'
 import Friends from '../Friends'
+ import Posts from '../Posts'
 function App() {
   const [count, setCount] = useState(0)
   function handel (){
@@ -21,15 +22,17 @@ function App() {
        
          
           <h1>Get started</h1>
-           <Friends></Friends>
+        <Posts></Posts>
+
+           {/* <Friends></Friends>
          <Users></Users>
           <Team></Team>
-     <Counter></Counter>
+         <Counter></Counter>
         <div> 
             <button onClick={handel}>Click Me</button>
            <button onClick={handelClick2}>Click Me 2</button>
            <button onClick={()=>{ alert('third click')}}>Third Button</button>
-        </div>
+        </div> */}
 
           
  </>
